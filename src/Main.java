@@ -1,8 +1,4 @@
-import mx.com.animales.Animal;
-import mx.com.animales.Gato;
-import mx.com.animales.Perro;
-import mx.com.animales.Vaca;
-import mx.com.animales.Movible;
+import mx.com.animales.*;
 
 public class Main {
     public static void main(String[] args){
@@ -10,7 +6,8 @@ public class Main {
 Animal[] grupo ={
         new Perro("Frida", 9),
         new Gato("Mewo", 4),
-        new Vaca ("Clara", 7)
+        new Vaca ("Clara", 7),
+        new Caballo("William", 12)
 
 };
         for (Animal animal : grupo){
