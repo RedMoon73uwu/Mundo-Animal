@@ -10,10 +10,12 @@ public abstract class Animal {
         }
 
     public void mostrarInformacion(){
-        System.out.println("el nombre del animal es: "+this.nombre+" y tiene: "+this.edad +" de edad.");
+        System.out.println("El nombre del animal es: "+this.nombre+" y tiene: "+this.edad +" años de edad.");
     }
 
     public void hacerSonido(){
 
     }
+
+    public void moverse(){}
 }
